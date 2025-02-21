@@ -31,6 +31,7 @@ const personSchema=mongoose.Schema({
     {
         type:Number
     }
-})//comment added for testing purpose
+})
+/*Added comment for testing*/
 const Person=mongoose.model("Person",personSchema);
 module.exports=Person;
